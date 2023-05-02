@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="347ad481-283d-46a2-aa97-4c057f6f08c9" name="변경" comment="">
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_02_1/Algorithm_02_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_02_2/Algorithm_02_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_02_3/Algorithm_02_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_03/Algorithm_03.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_04/Algorithm_04.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_05/Algorithm_05.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_06/Algorithm_06.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_07/Algorithm_07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_08/Algorithm_08.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_09/Algorithm_09.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_10/Algorithm_10.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_11/Algorithm_11.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_12/Algorithm_12.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_13/Algorithm_13.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_14/Algorithm_14.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_15/Algorithm_15.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_16_1/Algorithm_16_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_16_2/Algorithm_16_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_16_3/Algorithm_16_3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_17/Algorithm_17.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_18/Algorithm_18.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_19/Algorithm_19.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_20_1/Algorithm_20_1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Practice/Algorithm_20_2/Algorithm_20_2.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Practice" />
+  </component>
+  <component name="ProjectId" id="2PE0BdIXqlTJEGvhUoNAdetp63n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Zerobase/DataStructure_Algorithm/Algorithm/Practice"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="애플리케이션 수준" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="디폴트 작업">
+      <changelist id="347ad481-283d-46a2-aa97-4c057f6f08c9" name="변경" comment="" />
+      <created>1683006798799</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683006798799</updated>
+    </task>
+    <servers />
+  </component>
+</project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_02/LinearDS_02.iml" filepath="$PROJECT_DIR$/LinearDS_02/LinearDS_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_03/LinearDS_03.iml" filepath="$PROJECT_DIR$/LinearDS_03/LinearDS_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_04/LinearDS_04.iml" filepath="$PROJECT_DIR$/LinearDS_04/LinearDS_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_05/LinearDS_05.iml" filepath="$PROJECT_DIR$/LinearDS_05/LinearDS_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_06/LinearDS_06.iml" filepath="$PROJECT_DIR$/LinearDS_06/LinearDS_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_07/LinearDS_07.iml" filepath="$PROJECT_DIR$/LinearDS_07/LinearDS_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_08/LinearDS_08.iml" filepath="$PROJECT_DIR$/LinearDS_08/LinearDS_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_09/LinearDS_09.iml" filepath="$PROJECT_DIR$/LinearDS_09/LinearDS_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_10/LinearDS_10.iml" filepath="$PROJECT_DIR$/LinearDS_10/LinearDS_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_11/LinearDS_11.iml" filepath="$PROJECT_DIR$/LinearDS_11/LinearDS_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_12/LinearDS_12.iml" filepath="$PROJECT_DIR$/LinearDS_12/LinearDS_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_13/LinearDS_13.iml" filepath="$PROJECT_DIR$/LinearDS_13/LinearDS_13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_14_1/LinearDS_14_1.iml" filepath="$PROJECT_DIR$/LinearDS_14_1/LinearDS_14_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearDS_14_2/LinearDS_14_2.iml" filepath="$PROJECT_DIR$/LinearDS_14_2/LinearDS_14_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/LinearSolution.iml" filepath="$PROJECT_DIR$/.idea/LinearSolution.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_02_1/Algorithm_02_1.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_02_1/Algorithm_02_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_02_2/Algorithm_02_2.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_02_2/Algorithm_02_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_02_3/Algorithm_02_3.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_02_3/Algorithm_02_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_03/Algorithm_03.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_03/Algorithm_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_04/Algorithm_04.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_04/Algorithm_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_05/Algorithm_05.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_05/Algorithm_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_06/Algorithm_06.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_06/Algorithm_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_07/Algorithm_07.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_07/Algorithm_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_08/Algorithm_08.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_08/Algorithm_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_09/Algorithm_09.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_09/Algorithm_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_10/Algorithm_10.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_10/Algorithm_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_11/Algorithm_11.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_11/Algorithm_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_12/Algorithm_12.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_12/Algorithm_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_13/Algorithm_13.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_13/Algorithm_13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_14/Algorithm_14.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_14/Algorithm_14.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_15/Algorithm_15.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_15/Algorithm_15.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_16_1/Algorithm_16_1.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_16_1/Algorithm_16_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_16_2/Algorithm_16_2.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_16_2/Algorithm_16_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_16_3/Algorithm_16_3.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_16_3/Algorithm_16_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_17/Algorithm_17.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_17/Algorithm_17.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_18/Algorithm_18.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_18/Algorithm_18.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_19/Algorithm_19.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_19/Algorithm_19.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_20_1/Algorithm_20_1.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_20_1/Algorithm_20_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Algorithm/Practice/Algorithm_20_2/Algorithm_20_2.iml" filepath="$PROJECT_DIR$/Algorithm/Practice/Algorithm_20_2/Algorithm_20_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/DataStructure_Algorithm.iml" filepath="$PROJECT_DIR$/.idea/DataStructure_Algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_02/LinearDS_02.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_02/LinearDS_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_02/LinearDS_021.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_02/LinearDS_021.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_03/LinearDS_03.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_03/LinearDS_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_03/LinearDS_031.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_03/LinearDS_031.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_04/LinearDS_04.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_04/LinearDS_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_04/LinearDS_041.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_04/LinearDS_041.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_05/LinearDS_05.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_05/LinearDS_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_05/LinearDS_051.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_05/LinearDS_051.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_06/LinearDS_06.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_06/LinearDS_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_06/LinearDS_061.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_06/LinearDS_061.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_07/LinearDS_07.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_07/LinearDS_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_07/LinearDS_071.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_07/LinearDS_071.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_08/LinearDS_08.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_08/LinearDS_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_08/LinearDS_081.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_08/LinearDS_081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_09/LinearDS_09.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_09/LinearDS_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_09/LinearDS_091.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_09/LinearDS_091.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_10/LinearDS_10.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_10/LinearDS_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_10/LinearDS_101.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_10/LinearDS_101.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_11/LinearDS_11.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_11/LinearDS_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_11/LinearDS_111.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_11/LinearDS_111.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_12/LinearDS_12.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_12/LinearDS_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_12/LinearDS_121.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_12/LinearDS_121.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_13/LinearDS_13.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_13/LinearDS_13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_13/LinearDS_131.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_13/LinearDS_131.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_14_1/LinearDS_14_1.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_14_1/LinearDS_14_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_14_1/LinearDS_14_11.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_14_1/LinearDS_14_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearPractice/LinearDS_14_2/LinearDS_14_2.iml" filepath="$PROJECT_DIR$/Linear/LinearPractice/LinearDS_14_2/LinearDS_14_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/LinearSolution/LinearDS_14_2/LinearDS_14_21.iml" filepath="$PROJECT_DIR$/Linear/LinearSolution/LinearDS_14_2/LinearDS_14_21.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/MyLinear/MyLinear.iml" filepath="$PROJECT_DIR$/Linear/MyLinear/MyLinear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_01/NonLinearDS_01.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_01/NonLinearDS_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_02/NonLinearDS_02.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_02/NonLinearDS_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_03_1/NonLinearDS_03_1.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_03_1/NonLinearDS_03_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_03_2/NonLinearDS_03_2.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_03_2/NonLinearDS_03_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_03_3/NonLinearDS_03_3.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_03_3/NonLinearDS_03_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_04/NonLinearDS_04.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_04/NonLinearDS_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_05/NonLinearDS_05.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_05/NonLinearDS_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_06/NonLinearDS_06.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_06/NonLinearDS_06.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_07/NonLinearDS_07.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_07/NonLinearDS_07.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_08/NonLinearDS_08.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_08/NonLinearDS_08.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_09/NonLinearDS_09.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_09/NonLinearDS_09.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_10/NonLinearDS_10.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_10/NonLinearDS_10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_11/NonLinearDS_11.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_11/NonLinearDS_11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_12/NonLinearDS_12.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_12/NonLinearDS_12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_13_1/NonLinearDS_13_1.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_13_1/NonLinearDS_13_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_13_2/NonLinearDS_13_2.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_13_2/NonLinearDS_13_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_13_3/NonLinearDS_13_3.iml" filepath="$PROJECT_DIR$/NonLinear/Practice/NonLinearDS_13_3/NonLinearDS_13_3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/MyLinear/_02 Array/_02 Array.iml" filepath="$PROJECT_DIR$/Linear/MyLinear/_02 Array/_02 Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Linear/MyLinear/_03 LinkedList/_03 LinkedList.iml" filepath="$PROJECT_DIR$/Linear/MyLinear/_03 LinkedList/_03 LinkedList.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicMath/untitled/untitled.iml" filepath="$PROJECT_DIR$/BasicMath/untitled/untitled.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicMath/untitled1/untitled1.iml" filepath="$PROJECT_DIR$/BasicMath/untitled1/untitled1.iml" />
+    </modules>
+  </component>
+</project>
