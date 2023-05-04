@@ -8,16 +8,39 @@ public class Main3 {
             return;
         }
 
+        // 분할
         int pivot = partition(arr, left, right);
 
+        // 기준값 중심으로 좌우 재귀 호출
         quickSort(arr, left, pivot - 1);
         quickSort(arr, pivot + 1, right);
-
     }
 
     public static int partition(int[] arr, int left, int right) {
+        // 가장 좌측 값을 기준값으로 설정
+        // 이외에 기준 값은 배열에서 중간에 있는 값을 고르거나, 임의의 수를 3개 선정 후 중앙 값을 고르는 등의 방법이 있음
+        int pivot = arr[left];
+        int i = left;
+        int j = right;
 
-        return 0;
+        while (i < j) {
+            // 오른쪽: pivot보다 작은 값을 만나면 중단.(작은 값 찾기)
+            while (arr[j] > pivot && i < j) {
+                j--;
+            }
+
+            // 왼쪽: pivot보다 큰 값을 만나면 중단.(큰값 찾기)
+            while (arr[i] <= pivot && i < j) {
+                i++;
+            }
+
+            // 큰 값과 작은 값 자리 바꾸기
+            swap(arr, i, j);
+        }
+        // pivot값과 작은 값 자리 바꾸기
+        swap(arr, left, i);
+
+        return i;
     }
 
     public static void swap(int[] arr, int i, int j) {
