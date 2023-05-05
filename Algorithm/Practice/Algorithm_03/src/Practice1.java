@@ -12,7 +12,22 @@ import java.util.Arrays;
 public class Practice1 {
     // 계수 정렬
     public static void solution(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return;
+        }
 
+        int[] cntArr = new int[3];
+        for (int i = 0; i < arr.length; i++) {
+            cntArr[arr[i]]++;
+        }
+
+        int idx = 0;
+        for (int i = 0; i < cntArr.length; i++) {
+            while (cntArr[i] > 0) {
+                arr[idx++] = i;
+                cntArr[i] -= 1;
+            }
+        }
     }
 
     public static void main(String[] args) {

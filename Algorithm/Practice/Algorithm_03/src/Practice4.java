@@ -11,8 +11,31 @@
 
 public class Practice4 {
     public static int solution(int[] nums) {
+        if (nums == null || nums.length < 2) {
+            return 0;
+        }
 
-        return 0;
+        // 작은 값 보다 큰 값이 좌측에 있을 때 해당 값을 정렬이 필요한 첫 번째 인덱스로 지정
+        // 우측에서부터 시작하여 최솟값 찾기
+        int min = Integer.MAX_VALUE;
+        int firstIdx = 0;
+        for (int i = nums.length - 1; i >= 0; i--) {
+            min = Math.min(min, nums[i]);
+            // 좌측에있던 최솟값보다 큰값이 나오면 정렬할 대상.
+            if (nums[i] > min) {
+                firstIdx = i;
+            }
+        }
+
+        // 큰 값 보다 작은 값이 우측에 있을 때 해당 값을 정렬이 필요한 마지막 인덱스로 지정
+        int max = 0;
+        int lastIdx = -1;
+        for (int i = 0; i < nums.length; i++) {
+            max = Math.max(max, nums[i]);
+            if (nums[i] < max)
+                lastIdx = i;
+        }
+        return lastIdx - firstIdx + 1;
     }
 
     public static void main(String[] args) {

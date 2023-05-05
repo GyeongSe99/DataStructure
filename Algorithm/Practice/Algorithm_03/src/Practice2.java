@@ -10,15 +10,41 @@
 
 
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Practice2 {
     public static ArrayList<ArrayList<String>> solution(String[] strs) {
+        if (strs == null || strs.length == 0) {
+            return new ArrayList<>();
+        }
 
-        return null;
+        HashMap<String, ArrayList<String>> map = new HashMap<>();
+        for (String s : strs) {
+            char[] cArr = s.toCharArray();
+            sort(cArr);
+            // 정렬된 char배열을 String으로 만들기
+            String key = String.valueOf(cArr);
+
+            if (!map.containsKey(key)) {
+                map.put(key, new ArrayList<>());
+            }
+
+            map.get(key).add(s);
+        }
+
+        return new ArrayList<>(map.values());
     }
 
     public static void sort(char[] arr) {
-
+        for (int i = 1; i < arr.length; i++) {
+            for (int j = i; j > 0; j--) {
+                if (arr[j] < arr[j - 1]) {
+                    char temp = arr[j];
+                    arr[j] = arr[j - 1];
+                    arr[j - 1] = temp;
+                }
+            }
+        }
     }
 
     public static void main(String[] args) {
