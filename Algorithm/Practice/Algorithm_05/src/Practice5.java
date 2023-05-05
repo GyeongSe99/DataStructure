@@ -16,8 +16,45 @@
 
 public class Practice5 {
     public static int solution(int[] nums, int m) {
+        int left = 0;
+        int right = 0;
 
-        return 0;
+        // 발생 가능한 최소, 최대 기준으로 설정 후 이진 탐색
+        // left 는 배열 내 가장 큰 수 (하나씩 다 분리 가능해도 단일로 가장 큰 수)
+        // right 은 총합 (분리하지 않은 경우 총합)
+        for (int num : nums) {
+            left = Math.max(num, left);
+            right += num;
+        }
+
+        // m 은 1이면 분리하지 않는 것이므로 총합 반환
+        if (m == 1) {
+            return right;
+        }
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            int cnt = 1;
+            int total = 0;  // 최댓값 저장
+
+            // 배열 데이터 하나씩 합해 보면서 mid 보다 크면 분할 횟수 하나씩 늘려줌
+            for (int num : nums) {
+                total += num;
+                if (total > mid) {
+                    total = num;    // 분할 후 그 다음 데이터부터 다시 시작
+                    cnt++;
+                }
+            }
+
+            // 분할 횟수가 m보다 작거나 같으면 right 쪽을 줄임
+            if (cnt <= m) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        return left;
     }
 
     public static void main(String[] args) {

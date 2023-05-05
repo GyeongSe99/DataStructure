@@ -16,8 +16,42 @@
 
 public class Practice4 {
     public static int solution(int[] weights, int days) {
+        int left = 0;
+        int right = 0;
 
-        return 0;
+        // 이 무게 배열 그대로 이진 탐색 사용은 할수 없고,
+        // left 에는 배열 내 가장 무거운 무게 (최소한의 적재량)
+        // right 는 무게 총합 (최대한의 적재량)
+        // 으로 두고 이 사이에서 이진 탐색 진행
+        for (int w : weights) {
+            left = Math.max(left, w);
+            right += w;
+        }
+
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+            int cnt = 1;
+            int cur = 0;
+
+            // 무게 배열 순으로 적재해 보면서 현재 mid 적재량을 넘을 때마다 cnt 증가 (필요 일 수)
+            for (int w : weights) {
+                if (cur + w > mid) {
+                    cnt += 1;
+                    cur = 0;
+                }
+                cur += w;
+            }
+
+            // 필요 일 수가 days 보다 크면 더 큰 적재량의 차량이 필요
+            if (cnt > days) {
+                left = mid + 1;
+            } else {    // 필요 일 수가 days 보다 작으면 좀더 적은 적재량의 차량도 가능
+                right = mid - 1;
+            }
+        }
+        // 최종 적재량 반환
+        return left;
     }
 
     public static void main(String[] args) {

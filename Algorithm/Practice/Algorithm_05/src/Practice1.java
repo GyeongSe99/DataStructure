@@ -14,8 +14,36 @@
 
 public class Practice1 {
     public static int solution(int[] arr, int target) {
+        if (arr == null || arr.length == 0) {
+            return -1;
+        }
 
-        return 0;
+        int left = 0;
+        int right = arr.length - 1;
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+
+            // #2 overflow 대비 용
+//            int mid = left + (right - left) / 2;
+
+
+//            int a = Integer.MAX_VALUE;
+//            int b = Integer.MAX_VALUE - 10;
+//            int midAB = (a + b) / 2;   오버플로우 발생
+//            int midAB2 = a + (b - a) / 2;  오버플로우 발생하지 않게 하는 방법
+
+            if (target == arr[mid]) {
+                return mid;
+            } else if (target < arr[mid]) {
+                right = mid - 1;
+            } else {
+                left = mid + 1;
+            }
+        }
+
+        // 마지막엔 left와 right가 같아짐
+        return -left - 1;
     }
 
     public static void main(String[] args) {

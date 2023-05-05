@@ -14,6 +14,29 @@
 
 public class Practice3 {
     public static boolean solution(int[][] matrix, int target) {
+        if (matrix == null || matrix.length == 0) {
+            return false;
+        }
+
+        int left = 0;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+        // 행렬의 가장 끝을 이진 탐색의 right 로 잡음
+        int right = rows * cols - 1;
+
+        while (left <= right) {
+            int mid = (left + right) / 2;
+
+            // 3 x 4 matrix 기준,
+            // 해당 행은 mid / cols 로 접근, 해당 행에서 열의 값은 mid % cols 로 접근
+            if (matrix[mid / cols][mid % cols] == target) {
+                return true;
+            } else if (matrix[mid / cols][mid % cols] < target) {
+                left = mid + 1;
+            } else {
+                right = mid - 1;
+            }
+        }
 
         return false;
     }
