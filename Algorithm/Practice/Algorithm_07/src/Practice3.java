@@ -13,8 +13,25 @@
 
 public class Practice3 {
     public static String solution(String s) {
-
+        if (s == null) {
             return null;
+        }
+
+        if (s.length() < 2) {
+            return s;
+        }
+
+        // 문자열 사이 하나 공백을 제외한 나머지 공백 제거
+        s = removeSpaces(s);
+
+        char[] cArr = s.toCharArray();
+        // 전체 문자열 뒤집기
+        reverseString(cArr, 0, s.length() - 1);
+
+        // 단어 단위 다시 뒤집기
+        reverseWords(cArr, s.length());
+
+        return new String(cArr);
     }
 
     public static String removeSpaces(String s) {

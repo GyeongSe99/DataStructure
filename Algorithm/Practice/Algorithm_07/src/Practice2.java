@@ -13,11 +13,41 @@
 // 출력: 4, 9 (or 9, 4)
 
 import java.util.Arrays;
+import java.util.HashSet;
 
 public class Practice2 {
     public static int[] solution(int[] nums1, int[] nums2) {
+        HashSet<Integer> set = new HashSet<>();
 
-        return null;
+        // 우선 두 배열을 정렬
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+
+        int p1 = 0;
+        int p2 = 0;
+        // 각 배열 범위 안에서 반복문
+        while (p1 < nums1.length && p2 < nums2.length) {
+            // nums1 쪽이 작으면 p1 증가
+            if (nums1[p1] < nums2[p2]) {
+                p1++;
+            } else if (nums1[p1] > nums2[p2]) {
+                // nums2 쪽이 작으면 p2 증가
+                p2++;
+            } else {
+                // 같으면 hash set 에 추가
+                set.add(nums1[p1]);
+                p1++;
+                p2++;
+            }
+        }
+
+        // Hashset -> 배열
+        int[] result = new int[set.size()];
+        int idx = 0;
+        for (Integer n : set) {
+            result[idx++] = n;
+        }
+        return result;
     }
 
     public static void main(String[] args) {
