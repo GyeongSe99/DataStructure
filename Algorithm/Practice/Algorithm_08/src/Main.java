@@ -2,6 +2,7 @@
 // Activity Selection Problem
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 class Activity {
     String name;
@@ -18,6 +19,24 @@ class Activity {
 public class Main {
     public static void selectActivity(ArrayList<Activity> list) {
         // 종료시간 기준 오름차순 정렬
+        Collections.sort(list, (x1, x2) -> x1.end - x2.end);
+
+        int curTime = 0;
+        ArrayList<Activity> result = new ArrayList<>();
+        for (Activity item: list) {
+            // 활동의 시작 시간이 현재 시간보다 작으면 추가
+            if (curTime <= item.start) {
+                // 다음 활동 시간 비교를 위해 현재 활동의 종료 시간으로 업데이트
+                curTime = item.end;
+                result.add(item);
+            }
+        }
+
+        // 출력
+        for (Activity item: result) {
+            System.out.print(item.name + " ");
+        }
+        System.out.println();
 
     }
 
