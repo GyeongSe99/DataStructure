@@ -16,7 +16,22 @@
 
 public class Practice1 {
     public static boolean solution(int[] nums) {
+        int pos = 0;    // 현재 위치
 
+        for (int i = 0; i < nums.length; i++) {
+            // i보다 작으면 i까지 가지 못했다는 뜻.
+            // i보다 크면 i를 넘을 수 있다는 뜻.
+            if (pos < i) {
+                return false;
+            } else if (pos >= nums.length - 1) {
+                return true;
+            }
+
+            // 현재 기준 도달할 수 있는 최대 pos 계산
+            // 현재 위치 = pos
+            // 현재 위치에서 갈 수 있는 곳 = i + nums[i]
+            pos = Math.max(pos, i + nums[i]);
+        }
         return false;
     }
 
